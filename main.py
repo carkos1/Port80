@@ -5,8 +5,8 @@ import time
 from urllib.parse import quote, urljoin
 import urllib3
 
-URL_BASE = "https://www.pai.pt/searches"
-URL_CRAWL = "https://www.pai.pt/"
+URL_BASE = "https://www.diretorio-exemplo.com/searches"
+URL_CRAWL = "https://www.diretorio-exemplo.com/"
 URL_MODE = "restaurantes/"
 REGIOES = ["Alenquer","Amadora","Arruda dos Vinhos","Azambuja","Cadaval","Cascais","Lisboa","Loures","Lourinha","Mafra","Odivelas","Oeiras","Sintra","Sobral de Monte Agraco","Torres Vedras","Vila Franca de Xira"]
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.3','Accept-Language':'en-US'}
@@ -83,7 +83,6 @@ def gethref(soup):
     if store:
             for i in store:
                 a = i["href"]
-                # Add delay between store detail requests
                 time.sleep(2)
                 url = store_url(a)  
                 if url != None:         
