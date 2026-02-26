@@ -1,0 +1,14 @@
+Url,Phone,Security,Status,Latency
+https://restauranteabeira-te.pt/,+351214032806,False,CONNECTION_REFUSED,999
+https://www.fixepizza.pt/,934957565,False,CONNECTION_REFUSED,999
+http://pontobrasilcoimbra.negocio.site,239197135,False,404,0.28
+http://www.miabellapizza.pt,239157320,False,CONNECTION_REFUSED,999
+http://www.virabrasa.com,239780666,False,200,0.39
+http://www.saboreartecoimbra.com,239059006,True,200,3.24
+http://www.jardimdamanga.net,239829156,False,404,0.19
+http://www.azucar.pt/azucar.pt/home.html,917610439,False,CONNECTION_REFUSED,999
+http://www.tapasnascostas.pt,239157425,False,CONNECTION_REFUSED,999
+http://www.restaurante-napolitano.com,239701422,False,CONNECTION_REFUSED,999
+http://nostraconfeitaria.negocio.site,239197706,False,404,0.29
+http://oregionaldocabrito.com,939178381,True,503,0.24
+http://www.yeye.pt,911038075,False,CONNECTION_REFUSED,999
