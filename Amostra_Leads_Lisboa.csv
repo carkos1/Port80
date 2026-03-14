@@ -1,6 +1,0 @@
-Name,Url,Phone,Security,Status,Latency
-Restaurante 1º Janeiro,NO WEBSITE,263732653,NULL,NO WEBSITE,NULL
-Churrasqueira Brasas,http://obrasas.blogspot.com,214835242,FALSE,200,0.25
-Restaurante O Porcalho,http://www.oporcalho.pt.vu/,214936210,FALSE,TIMEOUT,>5s
-Peixe Na Linha,http://www.sushinalinha.net,214685388,FALSE,CONNECTION_REFUSED,999
-Dede's,http://www.cafededes.com/,935269319,FALSE,200,0.43
